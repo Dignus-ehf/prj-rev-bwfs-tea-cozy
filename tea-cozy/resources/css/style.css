@@ -1,0 +1,176 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    height: 2000px;
+}
+
+header, .main, footer {
+    background-color: black;
+}
+
+header {
+    position: fixed;
+    padding: 10px;
+    height: 59px;
+    margin-top: 0px;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    text-align: right;
+    z-index: 5;
+}
+
+header nav {
+    padding-right: 10px;
+}
+
+header a {
+    padding-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    color: seashell;
+    
+}
+
+header img {
+    margin-left: 10px;
+    height: 50px;
+    text-align: center;
+    opacity: 0.9;
+}
+
+nav {
+    display: block;
+    text-align: right;
+    flex-grow: 1;
+}
+
+nav span {
+    display: inline-block;
+    padding: 20px 10px;
+}
+
+div {
+    display: block;
+}
+
+h1, h2, h4 {
+    display: block;
+}
+
+#mission {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1200px;
+    height: 700px;
+    margin: auto;
+    background-image: url("../images/img-mission-background.jpg");
+}
+
+#tea-of-the-month {
+    margin: auto;
+    height: 100px;
+    width: 1000px;
+}
+
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#tea-images {
+    width: 1000px;
+    margin: auto;
+}
+
+.tea-images {
+    height: 300px;
+}
+
+.tea-images img {
+    display: block;
+    margin: 10px;
+    height: 200px;
+    width: 300px;
+}
+
+.tea-images span {
+    display: block;
+    padding: 5px;
+    text-align: center;
+}
+
+.tea-images-box2 {
+    margin-top: 30px;
+}
+
+.text-decoration {
+    position: relative;
+    margin: 0px auto;
+    background-color: black;
+    height: 130px;
+    width: 100%;
+    text-align: center;
+}
+
+.locations {
+    flex-wrap: row;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+#locations {
+    width: 1200px;
+    height: 500px;
+    padding-top: 70px;
+    text-align: center;
+    margin: 30px auto 0px auto;
+    background-image: url("../images/img-locations-background.jpg");
+    background-size: 500 1200;
+}
+
+#locations h1 {
+    text-align: center;
+    padding: 0 30px 0 15px;
+} 
+
+.locations-items {
+    padding-top: 10px;
+    opacity: 1;
+    height: 250px;
+    width: 300px;
+    background-color: black;
+}
+
+ #locations-item1 {
+    margin-right: 40px;
+} 
+
+ #locations-item3 {
+    margin-left: 40px;
+}
+
+.the-tea-cozy {
+    height: 200px;
+    width: 800px;
+    text-align: center;
+    margin: auto;
+}
+
+footer {
+    margin-top: 50px;
+    height: 50px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+
+
